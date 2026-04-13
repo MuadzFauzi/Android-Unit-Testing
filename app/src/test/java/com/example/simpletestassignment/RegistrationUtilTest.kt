@@ -16,8 +16,11 @@ class RegistrationUtilTest {
     }
 
     /* * UNIT TEST CASE 2: Validasi Panjang Password
-     * Deskripsi: Mengecek apakah fungsi mengembalikan 'false' jika password < 6 karakter.
-     * Alasan: Untuk keamanan, password minimal harus memiliki panjang tertentu.
+     * Tujuan: Memastikan fungsi mengembalikan 'false' jika password kurang dari 6 karakter.
+     * Alasan: Keamanan akun minimal memerlukan 6 karakter untuk mengurangi risiko keamanan sederhana.
+     *//* * UNIT TEST CASE 2: Validasi Panjang Password
+     * Tujuan: Memastikan fungsi mengembalikan 'false' jika password kurang dari 6 karakter.
+     * Alasan: Keamanan akun minimal memerlukan 6 karakter untuk mengurangi risiko keamanan sederhana.
      */
     @Test
     fun `password pendek menghasilkan false`() {
